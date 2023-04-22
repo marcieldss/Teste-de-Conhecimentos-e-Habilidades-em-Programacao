@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<!-- Os códigos de referencia você encontra na W3Schools (https://www.w3schools.com/js/default.asp) -->
+<!-- Desenvolvido por: Marcelo M S Silva. Se gostou me siga la no linkedin -> https://www.linkedin.com/in/marcelo-m-s-silva/ -->
+<head>
+	<title>Questionário</title>
+	<link rel="stylesheet" type="text/css" href="/JavaScript/style/style.css">
+</head>
+
+<body>
+	<header>
+        <div id="conteudo-title">
+            <h1 class="title">Modo de prática - JavaScript</h1>
+        </div>
+    </header>
+	<div class="container">
+		<h1>Questionário</h1><br>
+		<p><strong> Q14. Como você faria referência ao texto 'avenue' no código mostrado?</strong><br><br>
+			<span style="color:rgb(38, 0, 255)">let</span> <span style="color:rgb(243, 7, 39)">roadTypes</span> = [</span> <span style="color:rgb(9, 86, 6)">'street', 'road', 'avenue', 'circle'</span>];<br>
+		</p>
+		<form id="quiz-form">
+		<input type="radio" name="rate" value="1"> roadTypes.2<br><br>
+		<input type="radio" name="rate" value="3"> roadTypes[3]<br><br>
+		<input type="radio" name="rate" value="4"> roadTypes.3<br><br>
+		<input type="radio" name="rate" value="2"> roadTypes[2]<br><br>
+		</form>
+		<button onclick="checkAnswer()">Verificar resposta</button>
+		<a href="Q15.html" class="next-button">Próxima página</a>
+		<a href="Q13.html" class="previous-button">Página anterior</a>
+	</div>
+	<!-- Créditos: "© Marcelo M S Silva, Todos os direitos reservados. 21/04/2023". -->
+	<script src="/JavaScript/script/script.js"></script>
+</body>
+
+</html>
