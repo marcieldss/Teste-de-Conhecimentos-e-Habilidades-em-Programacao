@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<!-- Os códigos de referencia você encontra na W3Schools (https://www.w3schools.com/js/default.asp) -->
+<!-- Desenvolvido por: Marcelo M S Silva. Se gostou me siga la no linkedin -> https://www.linkedin.com/in/marcelo-m-s-silva/ -->
+
+<head>
+	<title>Questionário</title>
+	<link rel="stylesheet" type="text/css"
+		href="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/style/style.css">
+</head>
+
+<body>
+	<header>
+		<div id="conteudo-title">
+			<h1 class="title">Teste de Competências - JavaScript</h1>
+		</div>
+	</header>
+	<div class="container">
+		<h1>Questionário</h1><br>
+		<p><strong> Q127. Qual será a saída desse código para o log?</strong><br><br>
+			<span style="color:rgb(38, 0, 255)">var</span> thing;<br>
+			<span style="color:rgb(38, 0, 255)">let</span> func = (<span style="color:rgb(255, 0, 72)">str =</span> '<span style="color:rgb(38, 0, 255)">no arg</span>') => {<br>
+			console.<span style="color:rgb(255, 0, 72)">log</span>(str);<br>
+			};<br>
+			func(<span style="color:rgb(255, 0, 72)">thing</span>);<br>
+			func(<span style="color:rgb(255, 0, 72)">null</span>);<br>
+		</p><br>
+		<form id="quiz-form">
+			<input type="radio" name="rate" value="3"> nulo sem argumento<br><br>
+			<input type="radio" name="rate" value="1"> sem arg sem arg<br><br>
+			<input type="radio" name="rate" value="4"> nulo nulo<br><br>
+			<input type="radio" name="rate" value="2"> sem argumento nulo<br><br>
+		</form>
+		<button onclick="checkAnswer()">Verificar resposta</button>
+		<a href="Q129.html" class="next-button">Próxima página</a>
+		<a href="Q16.html" class="previous-button">Página anterior</a>
+	</div>
+	<!-- Créditos: "© Marcelo M S Silva, Todos os direitos reservados. 21/04/2023". -->
+	<script src="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/script/script.js"></script>
+</body>
+
+</html>
