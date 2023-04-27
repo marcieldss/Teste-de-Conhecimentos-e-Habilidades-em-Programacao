@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<!-- Os códigos de referencia você encontra na W3Schools (https://www.w3schools.com/js/default.asp) -->
+<!-- Desenvolvido por: Marcelo M S Silva. Se gostou me siga la no linkedin -> https://www.linkedin.com/in/marcelo-m-s-silva/ -->
+
+<head>
+	<title>Questionário</title>
+	<link rel="stylesheet" type="text/css"
+		href="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/style/style.css">
+</head>
+
+<body>
+	<header>
+		<div id="conteudo-title">
+			<h1 class="title">Teste de Competências - JavaScript</h1>
+		</div>
+	</header>
+	<div class="container">
+		<h1>Questionário</h1><br>
+		<p><strong> Q126. Qual é a saída desse código?</strong><br><br>
+			<span style="color:rgb(38, 0, 255)">var</span> cat = { name: <span style="color:rgb(38, 0, 255)">'Athena'</span> };<br>
+
+			<span style="color:rgb(38, 0, 255)">function</span> swap(feline) {<br>
+			feline.name = <span style="color:rgb(38, 0, 255)">'Wild'</span>;<br>
+			feline = { name: <span style="color:rgb(38, 0, 255)">'Tabby'</span>};<br>
+			}<br>
+
+			swap(<span style="color:rgb(38, 0, 255)">cat</span>);<br>
+			console.<span style="color:rgb(255, 0, 72)">log</span>(<span style="color:rgb(38, 0, 255)">cat.name</span>);<br>
+			</p><br>
+		<form id="quiz-form">
+			<input type="radio" name="rate" value="3"> undefined<br><br>
+			<input type="radio" name="rate" value="2"> Wild<br><br>
+			<input type="radio" name="rate" value="4"> Athena<br><br>
+			<input type="radio" name="rate" value="1"> Tabby<br><br>
+		</form>
+		<button onclick="checkAnswer()">Verificar resposta</button>
+		<a href="Q127.html" class="next-button">Próxima página</a>
+		<a href="Q16.html" class="previous-button">Página anterior</a>
+	</div>
+	<!-- Créditos: "© Marcelo M S Silva, Todos os direitos reservados. 21/04/2023". -->
+	<script src="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/script/script.js"></script>
+</body>
+
+</html>
