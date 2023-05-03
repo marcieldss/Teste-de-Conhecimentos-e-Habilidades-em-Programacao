@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<!-- Os códigos de referencia você encontra na W3Schools (https://www.w3schools.com/js/default.asp) -->
+<!-- Desenvolvido por: Marcelo M S Silva. Se gostou me siga la no linkedin -> https://www.linkedin.com/in/marcelo-m-s-silva/ -->
+
+<head>
+	<title>Questionário</title>
+	<link rel="stylesheet" type="text/css"
+		href="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/style/style.css">
+</head>
+
+<body>
+	<header>
+		<div id="conteudo-title">
+			<h1 class="title">Teste de Competências - JavaScript</h1>
+		</div>
+	</header>
+	<div class="container">
+		<h1>Questionário</h1><br>
+		<p><strong> Q118. Qual é a saída desse código?</strong><br><br>
+			<span style="color:rgb(255, 0, 72)">class</span> RainForest {<br>
+				<span style="color:rgb(255, 0, 72)">static</span> minimumRainFall = 60;<br>
+			  }<br>
+			  
+			  <span style="color:rgb(255, 0, 72)">let</span> congo <span style="color:rgb(38, 0, 255)">= new RainForest();</span><br>
+			  RainForest.<span style="color:rgb(38, 0, 255)">minimumRainFall = 80;</span><br>
+			  console.log(<span style="color:rgb(38, 0, 255)">congo.minimumRainFall);</span><br>
+			</p><br>
+		<form id="quiz-form">
+			<input type="radio" name="rate" value="2"> undefined<br><br>
+			<input type="radio" name="rate" value="1"> None of these answers, as static is not a feature in Javascript.<br><br>
+			<input type="radio" name="rate" value="4"> 60<br><br>
+			<input type="radio" name="rate" value="3"> 80<br><br>
+		</form>
+		<button onclick="checkAnswer()">Verificar resposta</button>
+		<a href="Q119.html" class="next-button">Próxima página</a>
+		<a href="Q16.html" class="previous-button">Página anterior</a>
+	</div>
+	<!-- Créditos: "© Marcelo M S Silva, Todos os direitos reservados. 21/04/2023". -->
+	<script src="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/script/script.js"></script>
+</body>
+
+</html>
