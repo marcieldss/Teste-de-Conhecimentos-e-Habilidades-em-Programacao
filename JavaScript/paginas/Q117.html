@@ -17,24 +17,23 @@
 	</header>
 	<div class="container">
 		<h1>Questionário</h1><br>
-		<p><strong> Q118. Qual é a saída desse código?</strong><br><br>
-			<span style="color:rgb(255, 0, 72)">class</span> RainForest {<br>
-				<span style="color:rgb(255, 0, 72)">static</span> minimumRainFall = 60;<br>
-			  }<br>
-			  
-			  <span style="color:rgb(255, 0, 72)">let</span> congo <span style="color:rgb(38, 0, 255)">= new RainForest();</span><br>
-			  RainForest.<span style="color:rgb(38, 0, 255)">minimumRainFall = 80;</span><br>
-			  console.log(<span style="color:rgb(38, 0, 255)">congo.minimumRainFall);</span><br>
+		<p><strong> Q117. Qual snippet você poderia inserir neste código para imprimir "swim" no console?</strong><br><br>
+				<span style="color:rgb(255, 0, 72)">let</span> animals = [<span style="color:rgb(38, 0, 255)">"eagle", "osprey", "salmon"</span>];<br>
+				<span style="color:rgb(255, 0, 72)">let</span> key <span style="color:rgb(38, 0, 255)">= animal => animal === "salmon";</span><br>
+			<br>
+			<span style="color:rgb(255, 0, 72)">if</span>(/* Insert Snippet Here */){<br>
+			console.<span style="color:rgb(255, 0, 72)">log</span>(<span style="color:rgb(38, 0, 255)">"swim"</span>);<br>
+			}<br>
 			</p><br>
 		<form id="quiz-form">
-			<input type="radio" name="rate" value="2"> undefined<br><br>
-			<input type="radio" name="rate" value="1"> None of these answers, as static is not a feature in Javascript.<br><br>
-			<input type="radio" name="rate" value="4"> 60<br><br>
-			<input type="radio" name="rate" value="3"> 80<br><br>
+			<input type="radio" name="rate" value="3"> animals.every(key)<br><br>
+			<input type="radio" name="rate" value="1"> animals.some(key).length === 1<br><br>
+			<input type="radio" name="rate" value="4"> animals.filter(key) === true<br><br>
+			<input type="radio" name="rate" value="2"> animals.some(key)<br><br>
 		</form>
 		<button onclick="checkAnswer()">Verificar resposta</button>
 		<a href="Q119.html" class="next-button">Próxima página</a>
-		<a href="Q117.html" class="previous-button">Página anterior</a>
+		<a href="Q16.html" class="previous-button">Página anterior</a>
 	</div>
 	<!-- Créditos: "© Marcelo M S Silva, Todos os direitos reservados. 21/04/2023". -->
 	<script src="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/script/script.js"></script>
