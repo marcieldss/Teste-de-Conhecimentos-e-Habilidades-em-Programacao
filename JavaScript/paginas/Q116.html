@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<!-- Os códigos de referencia você encontra na W3Schools (https://www.w3schools.com/js/default.asp) -->
+<!-- Desenvolvido por: Marcelo M S Silva. Se gostou me siga la no linkedin -> https://www.linkedin.com/in/marcelo-m-s-silva/ -->
+
+<head>
+	<title>Questionário</title>
+	<link rel="stylesheet" type="text/css"
+		href="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/style/style.css">
+</head>
+
+<body>
+	<header>
+		<div id="conteudo-title">
+			<h1 class="title">Teste de Competências - JavaScript</h1>
+		</div>
+	</header>
+	<div class="container">
+		<h1>Questionário</h1><br>
+		<p><strong> Q116. Qual será o valor de resultdepois de executar este código?</strong><br><br>
+			<span style="color:rgb(255, 0, 72)">const</span> person = { <span style="color:rgb(13, 0, 255)">name: 'Dave', age: 40, hairColor: 'blue'</span> };<br>
+			<span style="color:rgb(255, 0, 72)">const</span> result = <span style="color:rgb(142, 135, 6)">Object</span>.keys(person).<span style="color:rgb(13, 0, 255)">map(</span>(x) => x.<span style="color:rgb(134, 128, 8)">toUpperCase()</span>);<br>
+			</p><br>
+		<form id="quiz-form">
+			<input type="radio" name="rate" value="3"> Ele lançará um TypeError.<br><br>
+			<input type="radio" name="rate" value="1"> ["Name", "Age", "HairColor"]<br><br>
+			<input type="radio" name="rate" value="4"> ["DAVE", 40, "BLUE"]<br><br>
+			<input type="radio" name="rate" value="2"> ["NAME", "AGE", "HAIRCOLOR"]<br><br>
+		</form>
+		<button onclick="checkAnswer()">Verificar resposta</button>
+		<a href="Q117.html" class="next-button">Próxima página</a>
+		<a href="Q16.html" class="previous-button">Página anterior</a>
+	</div>
+	<!-- Créditos: "© Marcelo M S Silva, Todos os direitos reservados. 21/04/2023". -->
+	<script src="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/script/script.js"></script>
+</body>
+
+</html>
