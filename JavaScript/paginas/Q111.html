@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<!-- Os códigos de referencia você encontra na W3Schools (https://www.w3schools.com/js/default.asp) -->
+<!-- Desenvolvido por: Marcelo M S Silva. Se gostou me siga la no linkedin -> https://www.linkedin.com/in/marcelo-m-s-silva/ -->
+<head>
+	<title>Questionário</title>
+	<link rel="stylesheet" type="text/css" href="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/style/style.css">
+</head>
+
+<body>
+	<header>
+        <div id="conteudo-title">
+            <h1 class="title">Teste de Competências - JavaScript</h1>
+        </div>
+    </header>
+	<div class="container">
+		<h1>Questionário</h1><br>
+		<p><strong> Q130. Qual código você usaria para acessar a bandeira irlandesa?</strong><br><br>
+			<span style="color:rgb(255, 0, 72)">var</span> flagsJSON =<br>
+			<span style="color:rgb(38, 0, 255)">'{ "countries" : [' +<br>
+				'{ "country":"Ireland" , "flag":"🇮🇪" },' +<br>
+				'{ "country":"Serbia" , "flag":"🇷🇸" },' +<br>
+				'{ "country":"Peru" , "flag":"🇵🇪" } ]}';<br> </span>			
+		  
+		<span style="color:rgb(255, 0, 72)">var</span> flagDatabase <span style="color:rgb(38, 0, 255)">= JSON</span><span style="color:rgb(82, 10, 77)">.parse</span>(flagsJSON);<br>
+		</p><br>
+		<form id="quiz-form">
+		<input type="radio" name="rate" value="1"> flagDatabase.countries[1].flag<br><br>
+		<input type="radio" name="rate" value="2"> flagDatabase.countries[0].flag<br><br>
+		<input type="radio" name="rate" value="4"> flagDatabase[1].flag<br><br>
+		<input type="radio" name="rate" value="3"> flagsJSON.countries[0].flag<br><br>
+		</form>
+		<button onclick="checkAnswer()">Verificar resposta</button>
+		<a href="Q131.html" class="next-button">Próxima página</a>
+		<a href="Q129.html" class="previous-button">Página anterior</a>
+	</div>
+	<!-- Créditos: "© Marcelo M S Silva, Todos os direitos reservados. 21/04/2023". -->
+	<script src="/Teste-de-Conhecimentos-e-Habilidades-em-Programacao/JavaScript/script/script.js"></script>
+</body>
+
+</html>
